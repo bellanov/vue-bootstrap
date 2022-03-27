@@ -32,6 +32,3 @@ docker build -t website:local -f Dockerfile .
 docker run -it -p 80:80 website:local
 curl localhost:80
 ```
-
-Source:
-https://stackoverflow.com/questions/65547199/using-bootstrap-5-with-vue-3
