@@ -1,0 +1,12 @@
+/**
+
+If you don't have jsconfig.json in your project, Vetur will use fallback settings.
+Some features such as including path alias, decorator, and import json won't work.
+
+*/
+
+{
+  "include": [
+    "./src/**/*"
+  ]
+}
