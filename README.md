@@ -1,6 +1,6 @@
-# llc-website
+# vue-bootstrap
 
-Project files for the `Bellanov LLC` website.
+Example of **Vue 3** and **Bootstrap 5** integration. No more **jQuery**!!!
 
 ## Development Instructions
 
