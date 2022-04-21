@@ -2,7 +2,7 @@
 
 Example of **Vue 3** and **Bootstrap 5** integration. No more **jQuery**!!!
 
-## Development Instructions
+## Workflow
 
 Project **building**, **testing**, and **deployment** information.
 
