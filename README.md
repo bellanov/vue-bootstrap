@@ -21,6 +21,6 @@ yarn lint
 
 # Build and execute Docker container
 docker build -t vue-bootstrap:local -f Dockerfile .
-docker run -it -p 80:80 website:local
+docker run -it -p 80:80 vue-bootstrap:local
 curl localhost:80
 ```
