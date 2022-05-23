@@ -24,8 +24,8 @@ env:
 
 jobs:
   build:
-    container: node:14.16
     runs-on: ubuntu-latest
+    container: node:14.16
     permissions:
       contents: read
       packages: write
