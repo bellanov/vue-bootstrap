@@ -23,7 +23,7 @@ env:
 jobs:
   build:
     runs-on: ubuntu-latest
-    container: node:14.16
+    container: node:16.15
     permissions:
       contents: read
       packages: write
@@ -35,10 +35,8 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v3
 
-      - name: Sign the published Docker image
-        if: ${{ github.event_name != 'pull_request' }}
-        env:
-          COSIGN_EXPERIMENTAL: "true"
-        # This step uses the identity token to provision an ephemeral certificate
-        # against the sigstore community Fulcio instance.
+      - name: Node Version
         run: node -v
+
+      - name: Install Dependencies
+        run: npm install
