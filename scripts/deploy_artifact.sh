@@ -2,7 +2,7 @@
 #
 # Deploy a generic artifact to Google Cloud Platform (GCP).
 
-VERSION=v1.0.11
+VERSION=v1.0.12
 DEV_RELEASE_BUCKET=releases-ifn7a7levvrxumj
 # QA_RELEASE_BUCKET=releases-ifn7a7levvrxumj
 # PROD_RELEASE_BUCKET=releases-ifn7a7levvrxumj
