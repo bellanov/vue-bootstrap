@@ -4,7 +4,7 @@
 
 # GitHub
 GITHUB_RELEASE_REPOSITORY=ghcr.io/bellanov/vue-bootstrap
-VERSION=v1.0.10
+VERSION=v1.0.14
 
 # Dev / QA / Prod
 DEV_RELEASE_REPOSITORY=us-docker.pkg.dev/vue-bootstrap-dev/releases
