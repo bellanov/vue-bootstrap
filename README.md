@@ -4,6 +4,8 @@ Example of **Vue 3** and **Bootstrap 5** integration. No more **jQuery**!!!
 
 [Live Demo](https://vue-bootstrap-cloudrun-dev-iuj6vc72wa-uc.a.run.app/)
 
+The deployment is managed via Terraform in [vue-bootstrap-state](https://github.com/bellanov/vue-bootstrap-state).
+
 ## Workflow
 
 Project **building**, **testing**, and **deployment** information.
