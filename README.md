@@ -6,6 +6,7 @@ Example of **Vue 3** and **Bootstrap 5** integration. No more **jQuery**!!!
 
 [Dev](https://vue-bootstrap-dev-iuj6vc72wa-uc.a.run.app/)
 [QA](https://vue-bootstrap-qa-7td3j4wmyq-uc.a.run.app/)
+[Prod](https://vue-bootstrap-prod-6gpfnq26tq-uc.a.run.app/)
 
 The deployment is managed via Terraform in [vue-bootstrap-state](https://github.com/bellanov/vue-bootstrap-state).
 
