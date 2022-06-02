@@ -12,13 +12,12 @@
               Integration of VueJS 3 and Bootstrap 5.  
             </p>
 
-            <div class="row">
-              <div class="col-md-12">
-                <img class="logo" src="../assets/vuejs-logo.png" alt="VueJS Logo">
-                <img class="logo" src="../assets/bootstrap-logo.png" alt="Bootstrap Logo">
-                <img class="logo" src="../assets/github-logo.png" alt="GitHub Logo">
-              </div>
+            <div class="btn-group" role="group" aria-label="Basic mixed styles example">
+              <button type="button" class="btn btn-danger">Left</button>
+              <button type="button" class="btn btn-warning">Middle</button>
+              <button type="button" class="btn btn-success">Right</button>
             </div>
+
           </div>
         </div>
 
