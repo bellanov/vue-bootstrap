@@ -4,7 +4,7 @@
 
 # GitHub
 GITHUB_RELEASE_REPOSITORY=ghcr.io/bellanov/vue-bootstrap
-VERSION=v1.1.7
+VERSION=v1.1.8
 
 # Dev / QA / Prod
 DEV_RELEASE_REGISTRY=us-docker.pkg.dev/vue-bootstrap-dev/releases
@@ -22,7 +22,7 @@ docker tag $GITHUB_RELEASE_REPOSITORY:$VERSION $QA_RELEASE_REGISTRY/vue-bootstra
 docker tag $GITHUB_RELEASE_REPOSITORY:$VERSION $PROD_RELEASE_REGISTRY/vue-bootstrap:$VERSION
 
 # Push to GCP
-# Push container to GCP's Artifact Repository
+# Push container to GCP's Artifact Registry
 docker push $DEV_RELEASE_REGISTRY/vue-bootstrap:$VERSION
 docker push $QA_RELEASE_REGISTRY/vue-bootstrap:$VERSION
 docker push $PROD_RELEASE_REGISTRY/vue-bootstrap:$VERSION

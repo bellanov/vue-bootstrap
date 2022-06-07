@@ -23,7 +23,7 @@ env:
 jobs:
   build:
     runs-on: ubuntu-latest
-    container: ghcr.io/bellanov/build-node:v1.0.1
+    container: ghcr.io/bellanov/build-node:v18.3.0
     permissions:
       contents: read
       packages: write

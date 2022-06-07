@@ -1,5 +1,5 @@
 <template>
-  <HelloWorld title="VueBootstrap" version="v1.1.7"/>
+  <HelloWorld title="VueBootstrap" version="v1.1.8"/>
 </template>
 
 <script>
