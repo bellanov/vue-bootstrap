@@ -9,7 +9,7 @@
             <h1 class="display-1 fw-bold lh-1 mb-3">{{ title }}</h1>
             <h2 class="display-6 lh-1 mb-2">{{ version }}</h2>
             <p>
-              Integration of VueJS 3 and Bootstrap 5.  
+              Integration of <span class="text-decoration-underline">Vue.JS 3</span> and <span class="text-decoration-underline">Bootstrap v5.0</span>.  
             </p>
 
             <div class="btn-group" role="group" aria-label="Basic mixed styles example">
