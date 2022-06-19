@@ -15,6 +15,11 @@ steps:
 options:
   logging: CLOUD_LOGGING_ONLY
 
+substitutions:
+  _LOCATION: us # default value
+  _REPOSITORY: releases # default value
+  _IMAGE: '$PROJECT_ID:$TAG_NAME' # default value
+
 # my-image is pushed to Container Registry
 images:
 - 'gcr.io/$PROJECT_ID/my-image:$TAG_NAME'
