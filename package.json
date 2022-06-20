@@ -1,6 +1,6 @@
 {
   "name": "vue-bootstrap",
-  "version": "1.2.0",
+  "version": "%VERSION%",
   "private": true,
   "scripts": {
     "serve": "vue-cli-service serve",
