@@ -2,7 +2,7 @@ steps:
 
 # Uses the docker build step to build an image called my-image
 - name: 'gcr.io/cloud-builders/docker'
-  args: [ 'build', '-t', '${_LOCATION}-docker.pkg.dev/${_PROJECT}/${_REPOSITORY}/$PROJECT_ID:$TAG_NAME', '.' ]
+  args: [ 'build', '-t', '${_LOCATION}-docker.pkg.dev/$PROJECT_ID/${_REPOSITORY}/$PROJECT_ID:$TAG_NAME', '.' ]
   env:
   - 'BUILD=$BUILD_ID'
   - 'PROJECT_ID=$PROJECT_ID'
