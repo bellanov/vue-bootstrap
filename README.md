@@ -34,4 +34,4 @@ docker run -it -p 8080:80 vue-bootstrap:local
 
 Access the application at `localhost:8080`
 
-![Vue Bootstrap](./src/assets/vue-bootstrap.png)
+![Vue Bootstrap](./src/assets/vue-bootstrap-screenshot.png)
