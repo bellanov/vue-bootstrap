@@ -2,7 +2,7 @@ steps:
 
 # Uses the docker build step to build an image called my-image
 - name: 'gcr.io/cloud-builders/docker'
-  args: [ 'build', '-t', '${_LOCATION}-docker.pkg.dev/$PROJECT_ID/${_REPOSITORY}/$_PROJECT_NAME', '.' ]
+  args: [ 'build', '-t', '${_LOCATION}-docker.pkg.dev/$PROJECT_ID/${_REPOSITORY}/$_PROJECT_NAME:tag1', '.' ]
   env:
   - 'BUILD=$BUILD_ID'
   - 'PROJECT_ID=$PROJECT_ID'
@@ -19,6 +19,6 @@ substitutions:
 
 # Push Images to Artifact Registry
 images:
-- '${_LOCATION}-docker.pkg.dev/$PROJECT_ID/${_REPOSITORY}/${_PROJECT_NAME}'
+- '${_LOCATION}-docker.pkg.dev/$PROJECT_ID/${_REPOSITORY}/${_PROJECT_NAME}:tag1'
 
 
