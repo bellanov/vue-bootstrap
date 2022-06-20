@@ -1,0 +1,24 @@
+steps:
+
+# Uses the docker build step to build an image called my-image
+- name: 'gcr.io/cloud-builders/docker'
+  args: [ 'build', '-t', '${_LOCATION}-docker.pkg.dev/$PROJECT_ID/${_REPOSITORY}/$_PROJECT_NAME:$TAG_NAME', '.' ]
+  env:
+  - 'BUILD=$BUILD_ID'
+  - 'PROJECT_ID=$PROJECT_ID'
+  - 'PROJECT_NUMBER=$PROJECT_NUMBER'
+  - 'REV=$REVISION_ID'
+
+options:
+  logging: CLOUD_LOGGING_ONLY
+
+substitutions:
+  _PROJECT_NAME: vue-bootstrap
+  _LOCATION: us
+  _REPOSITORY: releases
+
+# Push Images to Artifact Registry
+images:
+- '${_LOCATION}-docker.pkg.dev/$PROJECT_ID/${_REPOSITORY}/${_PROJECT_NAME}:$TAG_NAME'
+
+
