@@ -19,6 +19,7 @@ substitutions:
 
 # Push Images to Artifact Registry
 images:
-- ${_LOCATION}-docker.pkg.dev/$PROJECT_ID/${_REPOSITORY}/${_PROJECT_NAME}:$TAG_NAME'
+- us-docker.pkg.dev/vue-bootstrap/releases/vue-bootstap:$TAG_NAME'
+# - ${_LOCATION}-docker.pkg.dev/$PROJECT_ID/${_REPOSITORY}/${_PROJECT_NAME}:$TAG_NAME'
 
 
